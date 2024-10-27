@@ -27,7 +27,7 @@ PLAN_NAME=myPlan
 printf "\nCreating App Service plan in FREE tier ... (3/8)\n\n"
 
 
-az appservice plan create --name $apiappname --resource-group $RESOURCE_GROUP --sku FREE --location $LOCATION--verbose
+az appservice plan create --name $apiappname --resource-group $RESOURCE_GROUP --sku FREE --location $LOCATION --verbose
 
 printf "\nCreating API App ... (4/8)\n\n"
 
